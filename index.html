@@ -3,167 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LumenTech Solutions - Innovative Tech Solutions">
+    <meta name="description" content="HakTech Solutions - Innovative Tech Solutions">
     <title>HakTech Solutions</title>
     <link rel="icon" href="logome2.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header id="header">
         <div class="container">
-            <a href="#" class="logo">HakTech Solutions</a>
+            <a href="#" class="logo">Hak<span>Tech</span></a>
             <nav>
                 <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#articles">Expertise</a></li>
-                    <li><a href="#works">Gallery</a></li>
-                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#articles">Services</a></li>
+                    <li><a href="#works">Work</a></li>
+                    <li><a href="#benefits">Why Us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="header-right">
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/share/1GuMzQzdqS/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/share/1GuMzQzdqS/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://t.me/hak00h" target="_blank"><i class="fab fa-telegram"></i></a>
                     <a href="https://www.instagram.com/sey_hakk_?igsh=NzN3czkxYmR3c3p0" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
+                <a href="#contact" class="btn-nav">Get in Touch</a>
+            </div>
         </div>
     </header>
-    
 
-    <!-- About Us-->
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tag">Innovative Tech Solutions</p>
+                <h1>We Build <span class="gradient-text">Digital Future</span></h1>
+                <p class="hero-desc">Crafting cutting-edge software, cloud solutions, and web experiences that transform businesses and drive growth.</p>
+                <div class="hero-buttons">
+                    <a href="#articles" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="welcome-text">Welcome to HakTech Solutions</h2>
-            <p>At Haktech Solutions, we are a pioneering tech company committed to crafting innovative solutions designed to elevate your business. With a focus on quality and creativity, we offer customized services that cater to your specific needs. Dive into our extensive expertise, explore our impressive portfolio, and learn how we can collaborate to drive your success forward!
-            </p>
-            <a href="#articles" class="btn">Learn More</a>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="section-tag">About Us</p>
+                    <h2>We are a team of <span class="gradient-text">passionate creators</span></h2>
+                    <p>At HakTech Solutions, we are a pioneering tech company committed to crafting innovative solutions designed to elevate your business. With a focus on quality and creativity, we offer customized services that cater to your specific needs.</p>
+                    <p>Dive into our extensive expertise, explore our impressive portfolio, and learn how we can collaborate to drive your success forward.</p>
+                    <a href="#articles" class="btn btn-primary">Explore More</a>
+                </div>
+                <div class="about-visual">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Done</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Expertise-->
-    <section id="articles" class="section">
+    <!-- Services -->
+    <section id="articles" class="section section-dark">
         <div class="container">
-            <h2>Our Expertise</h2>
+            <p class="section-tag center">What We Do</p>
+            <h2 class="center">Our <span class="gradient-text">Services</span></h2>
             <div class="cards">
                 <div class="card">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Custom Software Development</h3>
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Custom Software</h3>
                     <p>We create tailored software solutions that align with your business needs and scale with your growth.</p>
+                    <a href="#contact" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card featured">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Transform your operations with secure and scalable cloud solutions for modern business infrastructure.</p>
+                    <a href="#contact" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="card">
-                    <i class="fas fa-cloud"></i>
-                    <h3>Cloud Solutions & Integration</h3>
-                    <p>Transform your operations with secure and scalable cloud solutions for modern business.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-code"></i>
-                    <h3>Web Design & Development</h3>
-                    <p>We build responsive, user-friendly websites designed to enhance your brand presence.</p>
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>We build responsive, user-friendly websites designed to enhance your brand presence online.</p>
+                    <a href="#contact" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Gallery-->
+    <!-- Gallery -->
     <section id="works" class="section">
         <div class="container">
-            
+            <p class="section-tag center">Our Work</p>
+            <h2 class="center">Featured <span class="gradient-text">Projects</span></h2>
             <div class="gallery">
-                <div class="gallery-item">
-                    <img src="3.jpg" alt="Project 1">
-                    <h4></h4>
+                <div class="gallery-item project-1">
+                    <div class="project-content">
+                        <span class="project-tag">Web App</span>
+                        <h4>E-Commerce Platform</h4>
+                        <p>Full-stack shopping experience with real-time inventory</p>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="2.jpg" alt="Project 2">
-                    <h4></h4>
+                <div class="gallery-item project-2">
+                    <div class="project-content">
+                        <span class="project-tag">Mobile</span>
+                        <h4>Delivery Tracker</h4>
+                        <p>Real-time GPS tracking and route optimization</p>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="1.jpg" alt="Project 3">
-                    <h4></h4>
+                <div class="gallery-item project-3">
+                    <div class="project-content">
+                        <span class="project-tag">Cloud</span>
+                        <h4>Cloud Migration</h4>
+                        <p>Enterprise infrastructure modernization</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Benefits-->
-    <section id="benefits" class="section">
+    <!-- Benefits -->
+    <section id="benefits" class="section section-dark">
         <div class="container">
-            <h2>Why Choose Us?</h2>
+            <p class="section-tag center">Why Choose Us</p>
+            <h2 class="center">Built for <span class="gradient-text">Your Success</span></h2>
             <div class="benefits">
                 <div class="benefit">
-                    <i class="fas fa-cogs"></i>
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
                     <h4>Innovative Solutions</h4>
-                    <p>We leverage cutting-edge technologies to deliver unique solutions.</p>
+                    <p>We leverage cutting-edge technologies to deliver unique solutions that stand out.</p>
                 </div>
                 <div class="benefit">
-                    <i class="fas fa-user-friends"></i>
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
                     <h4>Client-Centered</h4>
                     <p>Your success is our mission. We tailor every solution to meet your goals.</p>
                 </div>
                 <div class="benefit">
-                    <i class="fas fa-chart-line"></i>
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
                     <h4>Scalable Growth</h4>
-                    <p>Our solutions are designed to grow with your business.</p>
+                    <p>Our solutions are designed to grow seamlessly with your business.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="section">
         <div class="container">
-            <h2>Contact Us</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="section-tag">Get in Touch</p>
+                    <h2>Let's Start a <span class="gradient-text">Project Together</span></h2>
+                    <p>Ready to bring your idea to life? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@haktech.solutions</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <span>@hak00h</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-instagram"></i>
+                            <span>@sey_hakk_</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-                <div class="form-group">
-                    <label for="contact-method">How should we contact you?</label>
-                    <select id="contact-method" name="contact-method" required>
-                        <option value="email">Email</option>
-                        <option value="phone">Phone</option>
-                        <option value="telegram">Telegram</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message-topic">Message Topic:</label>
-                    <select id="message-topic" name="message-topic" required>
-                        <option value="story">Send your story</option>
-                        <option value="journey">Join the journey</option>
-                        <option value="filming">Participate in filming</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send</button>
-            </form>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="contact-method" name="contact-method" required>
+                                <option value="" disabled selected>Contact Method</option>
+                                <option value="email">Email</option>
+                                <option value="phone">Phone</option>
+                                <option value="telegram">Telegram</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="message-topic" name="message-topic" required>
+                            <option value="" disabled selected>What can we help with?</option>
+                            <option value="project">Start a Project</option>
+                            <option value="consulting">Consulting</option>
+                            <option value="support">Support</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 HakTech Solutions. All Rights Reserved.</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/share/1GuMzQzdqS/"><i class="fab fa-facebook"></i></a>
-                <a href="https://t.me/hak00h"><i class="fab fa-telegram"></i></a>
-                <a href="https://www.instagram.com/sey_hakk_?igsh=NzN3czkxYmR3c3p0"><i class="fab fa-instagram"></i></a>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Hak<span>Tech</span></a>
+                    <p>Innovative tech solutions for modern businesses. Building the digital future, one project at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#articles">Services</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1GuMzQzdqS/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://t.me/hak00h"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/sey_hakk_?igsh=NzN3czkxYmR3c3p0"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HakTech Solutions. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
+    <script>
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
 </body>
 </html>
